@@ -1,0 +1,174 @@
+<!-- 
+    CATALGOS PAGINAS
+    1.- CATALOGO DE SABORES Y PRECIOS
+    2.- CATALOGO DE ADONROS Y PRESIOS
+
+    ORDENES:
+    1.- FORMULARIO 
+        - PUEDE COMBINAR CUALQIUUER SABOOR
+        - DATOS DE CLIENTE
+        - DESCRIPCION GENERAL DEL PASTEL
+
+    PASTELERO
+    1.- INVENTARIO DE SABORES Y ADORNOS
+    2.- REGISTRO DE PEDIDOS CON DATOS DEL FORMULARIO
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True Dessert - Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <!-- HEADER Y NAVBAR-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FAF6F6;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="/Assets/TrueDessert-logo.png" alt="TrueDessert Logo" width="150" height="150" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./catalogo.html">Catálogo</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pedido.html">Haz tu pedido</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./inventario.html">Inventario</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./historial.html">Ordenes realizadas</a>
+                      </li>
+                      
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Tabla del inventario -->
+    <table class="table table-warning table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Ingrediente</th>
+          <th scope="col">Cantidad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th colspan="3" class="text-center table-light">
+            Ingredientes sobrantes
+          </th>
+
+        </tr>
+        <tr>
+          <th scope="row">1</th>
+          <th>Saborizante fresa</th>
+          <th>10</th>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <th>Saborizante Chocolate</th>
+          <th>1</th>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <th>Saborizante Coco</th>
+          <th>0</th>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <th>Saborizante Limón</th>
+          <th>5</th>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <th>Saborizante Vainilla</th>
+          <th>3</th>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <th>Saborizante Naranja</th>
+          <th>7</th>
+        </tr>
+
+
+        <tr>
+          <th colspan="3" class="text-center table-light">
+            Adornos sobrantes
+          </th>
+
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <th>Duraznos</th>
+          <th>30</th>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <th>Piña</th>
+          <th>4</th>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <th>Fresas</th>
+          <th>20</th>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <th>Crema Batida</th>
+          <th>3</th>
+        </tr>
+        <tr>
+          <th scope="row">11</th>
+          <th>Chocolates</th>
+          <th>3</th>
+        </tr>
+        <tr>
+          <th scope="row">12</th>
+          <th>Velas</th>
+          <th>76</th>
+        </tr>
+
+
+      </tbody>
+      
+    </table>
+    
+    <!-- Footer -->
+    <footer class="mt-5 pt-5 pb-5 text-dark" style="position: relative; width: 100%; bottom:0%; background-color: #D6F6DD;">
+        <div class="container">
+            <div class="row justify-content-center text-center align-middle">
+                <div class="col-12 col-md mr-auto ml-auto ">
+                    <img alt="image" height="40" class="mb-2 rounded-circle" src="/Assets/mobile.png">
+                    <p class="text-h3">+52 (123) 456 789</p>
+                </div>
+    
+                <div class="col-12 col-md pt-4 pt-md-0 mr-auto ml-auto">
+                    <img alt="image" height="40" class="rounded-circle mb-2" src="/Assets/maker.png">
+                    <p class="text-h3">Ciudad de Mexico, Calle 1, C.P 12345</p>
+                </div>
+    
+                <div class="col-12 col-md pt-4 pt-md-0 mr-auto ml-auto">
+                    <img alt="image" height="40" class="rounded-circle mb-2" src="/Assets/clock.png">
+                    <p class="text-h3">10:00am - 7:00pm</p>
+                </div>
+    </footer>
+</body>
+</html>
